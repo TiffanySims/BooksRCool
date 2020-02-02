@@ -1,10 +1,10 @@
 {
   "name": "forkify",
   "version": "1.0.0",
-  "description": "forkify project",
+  "description": "Book project",
   "main": "server.js",
   "scripts": {
-    "dev": "webpack --mode development",
+    "dev": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production",
     "start": "node server.js"
   },
