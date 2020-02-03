@@ -1,5 +1,5 @@
 import Search from "./models/Search";
-import book from "./models/book";
+import Book from "./models/Book";
 import List from "./models/List";
 import Likes from "./models/Likes";
 import * as searchView from "./views/searchView";
