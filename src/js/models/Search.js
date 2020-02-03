@@ -12,7 +12,6 @@ export default class Search {
         `https://www.googleapis.com/books/v1/volumes?q=${this.query}&printType=books&filter=ebooks&maxResults=20`
       );
       this.result = res.data.items;
-      console.log(this.result);
     } catch (error) {
       alert(error);
     }

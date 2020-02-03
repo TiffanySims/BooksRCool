@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export default class book {
+export default class Book {
   constructor(id) {
     this.id = id;
   }

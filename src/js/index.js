@@ -76,13 +76,11 @@ const controlbook = async () => {
     if (state.search) searchView.highlightSelected(id);
 
     // Create new book object
-    state.book = new book(id);
+    state.book = new Book(id);
 
     try {
-      // Get book data and parse ingredients
+      // Get book data
       await state.book.getbook();
-
-      // Calculate servings and time
 
       // Render book
       clearLoader();
